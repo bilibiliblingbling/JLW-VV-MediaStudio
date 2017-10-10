@@ -1,0 +1,30 @@
+{
+    \"Name\" : \"Core\",
+    \"Version\" : \"$$MEDIASTUDIO_VERSION\",
+    \"CompatVersion\" : \"$$MEDIASTUDIO_COMPAT_VERSION\",
+    \"Required\" : true,
+    \"Vendor\" : \"Beijing BQVision Infomation Technology Co., Ltd\",
+    \"Copyright\" : \"(C) 2015 BQVISION\",
+    \"License\" : [
+    ],
+    \"Category\" : \"MediaStudio\",
+    \"Description\" : \"The core plugin for the MediaStudio.\",
+    \"Url\" : \"http://www.bqvision.com\",
+    \"Arguments\" : [
+        {
+            \"Name\" : \"-color\",
+            \"Parameter\" : \"color\",
+            \"Description\" : \"Override selected UI color\"
+        },
+        {
+            \"Name\" : \"-theme\",
+            \"Parameter\" : \"default|dark\",
+            \"Description\" : \"Choose a built-in theme or pass a .creatortheme file\"
+        },
+        {
+            \"Name\" : \"-presentationMode\",
+            \"Description\" : \"Enable presentation mode with pop-ups for key combos\"
+        }
+    ],
+    $$dependencyList
+}

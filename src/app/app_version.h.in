@@ -1,0 +1,40 @@
+#ifndef APP_VERSION_H
+#define APP_VERSION_H
+
+namespace Core {
+namespace Constants {
+
+#define STRINGIFY_INTERNAL(x) #x
+#define STRINGIFY(x) STRINGIFY_INTERNAL(x)
+
+#define APP_VERSION             $$MEDIASTUDIO_VERSION
+#define APP_VERSION_STR         STRINGIFY(APP_VERSION)
+
+#define APP_VERSION_MAJOR       $$replace(MEDIASTUDIO_VERSION, "^(\\d+)\\.\\d+\\.\\d+(-.*)?$", \\1)
+#define APP_VERSION_MINOR       $$replace(MEDIASTUDIO_VERSION, "^\\d+\\.(\\d+)\\.\\d+(-.*)?$", \\1)
+#define APP_VERSION_RELEASE     $$replace(MEDIASTUDIO_VERSION, "^\\d+\\.\\d+\\.(\\d+)(-.*)?$", \\1)
+
+#define APP_BUILD_DATE          $$MEDIASTUDIO_BUILD_DATE
+#define APP_BUILD_DATE_STR      STRINGIFY(APP_BUILD_DATE)
+#define APP_BUILD_VERSION       $$MEDIASTUDIO_BUILD_VERSION
+#define APP_BUILD_VERSION_STR   STRINGIFY(APP_BUILD_VERSION)
+
+
+const char * const APP_NAME                 = \"MediaStudio\";
+const char * const APP_NAME_FULL            = \"KingVision MediaStudio\";
+const char * const APP_COLLECTION           = \"KingVision\";
+
+const char * const APP_PLUGIN_IID           = \"com.bqvision.KingVision.MediaStudio.plugin\";
+
+const char * const APP_VERSION_LONG         = APP_VERSION_STR;
+const char * const APP_ORGANIZATION         = \"Beijing BQVision Infomation Technology Co., Ltd\";
+const char * const APP_ORGANIZATION_BRIEF   = \"bqvision\";
+const char * const APP_ORGANIZATION_URL     = \"www.bqvision.com\";
+const char * const APP_COPYRIGHT_INFO       = \"Copyright (C) 2015 BQVISION. All Rights Reserved.\";
+
+
+} // namespace Constants
+} // namespace Core
+
+
+#endif // APP_VERSION_H

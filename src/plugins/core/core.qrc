@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/core">
+        <file>images/help.png</file>
+        <file>images/mediastudio.ico</file>
+        <file>images/closebutton.png</file>
+        <file>images/sidebaricon.png</file>
+    </qresource>
+</RCC>

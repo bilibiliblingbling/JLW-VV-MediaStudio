@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/mediasource">
+        <file>images/recordtypealarm.png</file>
+        <file>images/recordtypemanual.png</file>
+        <file>images/recordtypeschedule.png</file>
+    </qresource>
+</RCC>

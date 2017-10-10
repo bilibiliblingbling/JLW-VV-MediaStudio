@@ -1,0 +1,16 @@
+{
+    \"Name\" : \"Player\",
+    \"Version\" : \"$$MEDIASTUDIO_VERSION\",
+    \"CompatVersion\" : \"$$MEDIASTUDIO_COMPAT_VERSION\",
+    \"Required\" : true,
+    \"Vendor\" : \"Beijing BQVision Infomation Technology Co., Ltd\",
+    \"Copyright\" : \"(C) 2015 BQVISION\",
+    \"License\" : [
+    ],
+    \"Category\" : \"MediaStudio\",
+    \"Description\" : \"Player MediaStudio.\",
+    \"Url\" : \"http://www.bqvision.com\",
+    \"Arguments\" : [
+    ],
+    $$dependencyList
+}

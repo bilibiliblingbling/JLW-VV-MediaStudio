@@ -1,0 +1,52 @@
+#+title: MediaStudio: The Client of KingVision System
+#+startup: showall
+
+
+* deploy structure
+  #+begin_example
+  /opt/bqvision
+  |-- bin
+  |   |-- mediastudio
+  |   `-- ...
+  |
+  |-- lib, lib64
+  |   `-- kingvision
+  |       |-- mediastudio
+  |       |   |-- libAggregation.so
+  |       |   |-- libExtensionSystem.so
+  |       |   |-- libUtils.so
+  |       |   |-- plugins
+  |       |   |   |-- libCore.so
+  |       |   |   `-- ...
+  |       |   |
+  |       |   `-- ...
+  |       |
+  |       `-- ...
+  |
+  |-- share
+  |   |-- doc
+  |   |   `-- kingvision
+  |   |       |-- mediastudio
+  |   |       |   `-- manual ...
+  |   |       |
+  |   |       `-- ...
+  |   |
+  |   |-- mime
+  |   |   `-- packages
+  |   |       |-- GenericProject.mimetypes.xml
+  |   |       `-- ...
+  |   |
+  |   `-- ...
+  |
+  `-- ...
+  #+end_example
+
+* develop guide
+
+** UDOCA
+   Universal Distributed Object Communication Architecture
+   (统一分布式对象通信体系结构)
+
+** StreamSDK
+
+** ExtensionSystem

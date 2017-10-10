@@ -1,0 +1,3 @@
+MEDIASTUDIO_PLUGIN_NAME = License
+
+MEDIASTUDIO_LIB_DEPENDS += extensionsystem

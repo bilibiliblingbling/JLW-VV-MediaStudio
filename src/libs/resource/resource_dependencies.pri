@@ -1,0 +1,1 @@
+MEDIASTUDIO_LIB_NAME = Resource
